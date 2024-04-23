@@ -7,6 +7,7 @@ const loginForm = document.getElementById('loginForm');
 
     firebase.auth().signInWithEmailAndPassword(email, password)
       .then((userCredential) => {
+        alert('Login Successful!!...')
         window.location.href = '/index.html';
       })
       .catch((error) => {
