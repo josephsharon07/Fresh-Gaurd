@@ -22,4 +22,4 @@ function live_update() {
 
 live_update();
 
-setInterval(live_update, 5000);
+setInterval(live_update, 2000);
